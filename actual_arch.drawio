@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T18:28:11.871Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="EUDHy8u9EeknrxaOG69F" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T19:31:52.941Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="7HWbeFpEdzyAl8j8FHSb" version="21.7.5" type="github">
   <diagram name="Página-1" id="AVghKkegyHLbhoHbaSKN">
-    <mxGraphModel dx="6318" dy="4200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2673" dy="2133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -317,6 +317,21 @@
         </mxCell>
         <mxCell id="zlu5TTImRnFVpwtDKafQ-81" value="Manager(Execução regra de Negocio)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2850" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-266" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-82" target="zlu5TTImRnFVpwtDKafQ-261">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2730" y="845" />
+              <mxPoint x="2730" y="770" />
+              <mxPoint x="3230" y="770" />
+              <mxPoint x="3230" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-267" value="SQL SERVER" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zlu5TTImRnFVpwtDKafQ-266">
+          <mxGeometry x="0.1013" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="zlu5TTImRnFVpwtDKafQ-82" value="Bases Relacionais" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="2535" y="800" width="70" height="90" as="geometry" />
@@ -835,6 +850,21 @@
         </mxCell>
         <mxCell id="zlu5TTImRnFVpwtDKafQ-260" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/1024px-Socket-io.svg.png;" vertex="1" parent="1">
           <mxGeometry x="-464" y="1110" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-261" value="Stored Procedures" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3450" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-262" value="Dataset" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3690" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-263" value="Reporting Services Library" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3880" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-264" value=".Net 4.x" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3450" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-265" value="Frontend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3660" y="370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
