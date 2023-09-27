@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T15:02:35.238Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="CRR6X0HlN-z4x1I0HYu5" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T16:44:02.737Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="iObAMix-O0QOjzzDBK6A" version="21.7.5" type="github">
   <diagram name="Página-1" id="AVghKkegyHLbhoHbaSKN">
-    <mxGraphModel dx="2722" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1631" dy="1543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,9 +51,9 @@
         <mxCell id="zlu5TTImRnFVpwtDKafQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-14" target="zlu5TTImRnFVpwtDKafQ-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zlu5TTImRnFVpwtDKafQ-25" value="Pooling - Fluxo de envio de dados" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zlu5TTImRnFVpwtDKafQ-21">
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-25" value="Pooling - 1: Fluxo de envio de dados" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zlu5TTImRnFVpwtDKafQ-21">
           <mxGeometry x="-0.2018" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="52" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zlu5TTImRnFVpwtDKafQ-14" value="Pooling de envio de dados" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -66,9 +66,47 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zlu5TTImRnFVpwtDKafQ-32" value="Confirmação - Recebimento dos dados" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zlu5TTImRnFVpwtDKafQ-26">
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-32" value="Confirmação - 1: Fluxo de envio dos dados" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zlu5TTImRnFVpwtDKafQ-26">
           <mxGeometry x="0.5879" y="-2" relative="1" as="geometry">
-            <mxPoint x="32" y="2" as="offset" />
+            <mxPoint x="134" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-20" target="zlu5TTImRnFVpwtDKafQ-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1370" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-44" value="Pooling - 2: Solicitação de Comandos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zlu5TTImRnFVpwtDKafQ-43">
+          <mxGeometry x="0.2064" relative="1" as="geometry">
+            <mxPoint x="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-20" target="zlu5TTImRnFVpwtDKafQ-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1465" y="-10" />
+              <mxPoint x="560" y="-10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-48" value="Event 3: Comandos(Alertas)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zlu5TTImRnFVpwtDKafQ-47">
+          <mxGeometry x="0.1588" y="-2" relative="1" as="geometry">
+            <mxPoint x="-118" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.996;exitY=0.089;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-20" target="zlu5TTImRnFVpwtDKafQ-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2050" y="183" />
+              <mxPoint x="2050" y="138" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-52" value="Pooling 1 e 2, envio de dados e solicitação de comandos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zlu5TTImRnFVpwtDKafQ-51">
+          <mxGeometry x="-0.3552" y="-1" relative="1" as="geometry">
+            <mxPoint x="52" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zlu5TTImRnFVpwtDKafQ-20" value="Mosquitto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -101,13 +139,63 @@
         <mxCell id="zlu5TTImRnFVpwtDKafQ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-37" target="zlu5TTImRnFVpwtDKafQ-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zlu5TTImRnFVpwtDKafQ-40" value="Pooling - Solicitação de Comandos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zlu5TTImRnFVpwtDKafQ-39">
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-40" value="Pooling - 2: Solicitação de Comandos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zlu5TTImRnFVpwtDKafQ-39">
           <mxGeometry x="-0.1324" y="-4" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
+            <mxPoint x="14" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zlu5TTImRnFVpwtDKafQ-37" value="Pooling de Solicitação de Comandos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-42" target="zlu5TTImRnFVpwtDKafQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-42" value="Recebimento de Comandos via MQTT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-45" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-70" width="860" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-49" value="App Mobile - MQTT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-120" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2320" y="137.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-50" value="Consumer MQTT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="107.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-54" target="zlu5TTImRnFVpwtDKafQ-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-54" value="Objeto de Thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-55" value="Fila de Execução (Array&#39;s aninhados) priorizada pelo tópico" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-57" target="zlu5TTImRnFVpwtDKafQ-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-57" value="Executor de Threads(Consumer da Fila)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-58" target="zlu5TTImRnFVpwtDKafQ-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-58" value="Inicializa o registrador de Topicos(Mapping da rota de execução)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-60" target="zlu5TTImRnFVpwtDKafQ-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-60" value="Objeto de Manager(Gerencia a conversão proto p/ objeto)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-62" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="340" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
