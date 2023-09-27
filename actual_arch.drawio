@@ -1,9 +1,114 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T14:43:02.052Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.5" etag="3BDiG0JjQ-al-O3TchMS" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T15:02:35.238Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="CRR6X0HlN-z4x1I0HYu5" version="21.7.5" type="github">
   <diagram name="Página-1" id="AVghKkegyHLbhoHbaSKN">
-    <mxGraphModel>
+    <mxGraphModel dx="2722" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-4" target="zlu5TTImRnFVpwtDKafQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-4" value="Gera o Dado(GPS, Automação, Interação na tela)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-5" target="zlu5TTImRnFVpwtDKafQ-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="160" />
+              <mxPoint x="180" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-5" value="SQLite" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="325" y="70" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-7" target="zlu5TTImRnFVpwtDKafQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-7" value="Processo de Verificação de novos dados" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.621;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-10" target="zlu5TTImRnFVpwtDKafQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-10" value="Formata em Protobuff" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="225" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-12" target="zlu5TTImRnFVpwtDKafQ-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="370" />
+              <mxPoint x="520" y="120" />
+              <mxPoint x="600" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-12" target="zlu5TTImRnFVpwtDKafQ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-12" value="Instância MQTT Connector" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="350" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-14" target="zlu5TTImRnFVpwtDKafQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-25" value="Pooling - Fluxo de envio de dados" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zlu5TTImRnFVpwtDKafQ-21">
+          <mxGeometry x="-0.2018" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-14" value="Pooling de envio de dados" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-20" target="zlu5TTImRnFVpwtDKafQ-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-32" value="Confirmação - Recebimento dos dados" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zlu5TTImRnFVpwtDKafQ-26">
+          <mxGeometry x="0.5879" y="-2" relative="1" as="geometry">
+            <mxPoint x="32" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-20" value="Mosquitto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="167.5" width="380" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-24" target="zlu5TTImRnFVpwtDKafQ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-24" value="Confirmação de Recebimento dos dados" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-27" value="Encerra o pooling daquelas informações" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-30" target="zlu5TTImRnFVpwtDKafQ-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-30" value="Pooling de Recebimento de comandos(Estrutura, alocações, programação de atividades)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="530" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zlu5TTImRnFVpwtDKafQ-37" target="zlu5TTImRnFVpwtDKafQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-40" value="Pooling - Solicitação de Comandos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zlu5TTImRnFVpwtDKafQ-39">
+          <mxGeometry x="-0.1324" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlu5TTImRnFVpwtDKafQ-37" value="Pooling de Solicitação de Comandos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
